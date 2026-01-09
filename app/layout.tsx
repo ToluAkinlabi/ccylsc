@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { Roboto } from "next/font/google";
 import "./globals.css";
+import MobileNav from "./components/MobileNav";
 
 const roboto = Roboto({ weight: ["300", "400", "500", "700", "900"], subsets: ["latin"], variable: "--font-roboto" });
 
@@ -19,14 +20,16 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
           <div className="container nav">
             <div className="brand">
               <img src="/logo.svg" alt="CC-YLSC" className="logo" />
-              <span>Capital City Youth Leadership & Service Corps</span>
+              <span className="brand-full">Capital City Youth Leadership & Service Corps</span>
+              <span className="brand-short">CCYLSC</span>
             </div>
-            <nav style={{ marginLeft: "auto" }} className="nav">
+            <nav className="desktop-nav">
               <a href="/">Home</a>
               <a href="/about">About</a>
               <a href="/jobs">Jobs</a>
               <a href="/contact">Contact</a>
             </nav>
+            <MobileNav />
           </div>
         </header>
         <main>{children}</main>
