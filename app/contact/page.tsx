@@ -1,5 +1,7 @@
 export const metadata = { title: "Contact CC-YLSC" };
 
+import ContactForm from "@/app/components/ContactForm";
+
 export default function ContactPage() {
   return (
     <section>
@@ -9,14 +11,7 @@ export default function ContactPage() {
         <p>
           Email: <a href="mailto:info@ccylsc.org">info@ccylsc.org</a>
         </p>
-        <form action="mailto:info@ccylsc.org" method="post" encType="text/plain" style={{ maxWidth: 520 }}>
-          <div style={{ display: "grid", gap: 12 }}>
-            <input name="name" placeholder="Your name" required style={{ padding: 12, borderRadius: 8, border: "1px solid #e6e9ef" }} />
-            <input name="email" type="email" placeholder="Your email" required style={{ padding: 12, borderRadius: 8, border: "1px solid #e6e9ef" }} />
-            <textarea name="message" placeholder="Message" rows={5} required style={{ padding: 12, borderRadius: 8, border: "1px solid #e6e9ef" }} />
-            <button type="submit" className="cta" style={{ width: "fit-content" }}>Send</button>
-          </div>
-        </form>
+        <ContactForm />
       </div>
     </section>
   );

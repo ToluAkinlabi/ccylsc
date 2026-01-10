@@ -5,9 +5,9 @@ export default function HomePage() {
         <div className="container">
           <h1>Building Values-Driven Youth Leaders</h1>
           <p>
-            The Capital City Youth Leadership & Service Corps (CC-YLSC) equips young people in
-            Washington, DC with character, civic responsibility, workforce readiness, and a
-            service orientation.
+            A faith-based, nonpartisan youth leadership and service initiative equipping young 
+            people ages 16-35 in Washington, DC with character, civic responsibility, workforce 
+            readiness, and a commitment to community and national service.
           </p>
           <div className="hero-ctas">
             <a className="cta" href="/jobs">Explore Opportunities</a>
@@ -21,20 +21,20 @@ export default function HomePage() {
         <div className="container">
           <div className="stats-grid">
             <div className="stat-card">
-              <div className="stat-number">500+</div>
-              <div className="stat-label">Youth Served</div>
+              <div className="stat-number">1,000+</div>
+              <div className="stat-label">Youth Target (Annual)</div>
             </div>
             <div className="stat-card">
-              <div className="stat-number">25+</div>
-              <div className="stat-label">Programs Completed</div>
+              <div className="stat-number">12</div>
+              <div className="stat-label">Week Cohorts</div>
             </div>
             <div className="stat-card">
-              <div className="stat-number">10K+</div>
-              <div className="stat-label">Service Hours</div>
+              <div className="stat-number">2-3</div>
+              <div className="stat-label">Cohorts per Year</div>
             </div>
             <div className="stat-card">
-              <div className="stat-number">95%</div>
-              <div className="stat-label">Success Rate</div>
+              <div className="stat-number">16-35</div>
+              <div className="stat-label">Age Range</div>
             </div>
           </div>
         </div>
@@ -46,24 +46,24 @@ export default function HomePage() {
           <h2 className="section-title">Our Four Pillars</h2>
           <div className="grid">
             <div className="card value-card">
-              <div className="value-icon">💎</div>
-              <h3>Character</h3>
-              <p>Values-centered development that builds integrity and resilience.</p>
-            </div>
-            <div className="card value-card">
               <div className="value-icon">🏛️</div>
-              <h3>Civic Responsibility</h3>
-              <p>Preparing youth to serve communities and strengthen democracy.</p>
+              <h3>Civic Leadership & Ethics</h3>
+              <p>Training in ethical decision-making, servant leadership, and civic responsibility.</p>
             </div>
             <div className="card value-card">
               <div className="value-icon">💼</div>
-              <h3>Workforce Readiness</h3>
-              <p>Practical skills, mentorship, and pathways into public service careers.</p>
+              <h3>Workforce & Career Readiness</h3>
+              <p>Professional development and exposure to career pathways across sectors.</p>
             </div>
             <div className="card value-card">
               <div className="value-icon">🤝</div>
-              <h3>Service Orientation</h3>
-              <p>Hands-on projects that cultivate empathy, initiative, and teamwork.</p>
+              <h3>Community & National Service</h3>
+              <p>Structured service projects delivering measurable community impact.</p>
+            </div>
+            <div className="card value-card">
+              <div className="value-icon">💎</div>
+              <h3>Faith & Character Formation</h3>
+              <p>Values-based leadership emphasizing integrity and social responsibility.</p>
             </div>
           </div>
         </div>
@@ -77,22 +77,22 @@ export default function HomePage() {
             <div className="timeline-item">
               <div className="timeline-number">1</div>
               <h3>Apply</h3>
-              <p>Submit your application and join our diverse community of aspiring leaders.</p>
+              <p>Join a 12-week cohort and become part of our diverse leadership community.</p>
             </div>
             <div className="timeline-item">
               <div className="timeline-number">2</div>
               <h3>Training</h3>
-              <p>Participate in workshops, mentorship sessions, and leadership development programs.</p>
+              <p>Engage in hybrid workshops covering leadership, ethics, and professional skills.</p>
             </div>
             <div className="timeline-item">
               <div className="timeline-number">3</div>
               <h3>Service</h3>
-              <p>Engage in meaningful community projects and hands-on service experiences.</p>
+              <p>Participate in structured community projects with measurable impact.</p>
             </div>
             <div className="timeline-item">
               <div className="timeline-number">4</div>
-              <h3>Career Pathways</h3>
-              <p>Access opportunities in public service, networking, and professional growth.</p>
+              <h3>Capstone Project</h3>
+              <p>Complete a leadership project addressing identified community needs.</p>
             </div>
           </div>
         </div>

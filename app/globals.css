@@ -492,6 +492,10 @@ button.cta {
   .cta-grid {
     grid-template-columns: repeat(2, 1fr);
   }
+  
+  .about-hero h1 {
+    font-size: 36px !important;
+  }
 }
 
 @media (max-width: 768px) {
@@ -588,6 +592,14 @@ button.cta {
   .logo {
     width: 24px;
     height: 24px;
+  }
+  
+  .about-hero h1 {
+    font-size: 32px !important;
+  }
+  
+  .about-hero p {
+    font-size: 16px !important;
   }
 }
 
