@@ -106,19 +106,19 @@ export default function HomePage() {
             <div className="card program-card">
               <div className="program-badge">Active</div>
               <h3>Leadership Training Cohort</h3>
-              <p>10-week intensive program focused on building leadership skills, public speaking, and strategic thinking.</p>
+              <p>12-week intensive program focused on building leadership skills, public speaking, and strategic thinking.</p>
+              <a href="/cohort-application" className="cta-link">Apply now →</a>
+            </div>
+            <div className="card program-card">
+              <div className="program-badge">Active</div>
+              <h3>SWAD Mentorship Program</h3>
+              <p>Students With A Difference equips high school students from underserved backgrounds with mentorship, college prep, and personal development.</p>
               <a href="/about" className="cta-link">Learn more →</a>
             </div>
             <div className="card program-card">
               <div className="program-badge">Active</div>
               <h3>Community Service Projects</h3>
               <p>Monthly service initiatives addressing local needs in education, environment, and social justice.</p>
-              <a href="/about" className="cta-link">Learn more →</a>
-            </div>
-            <div className="card program-card">
-              <div className="program-badge">Starting Soon</div>
-              <h3>Career Mentorship Program</h3>
-              <p>One-on-one mentorship with professionals in government, nonprofit, and public service sectors.</p>
               <a href="/about" className="cta-link">Learn more →</a>
             </div>
           </div>
@@ -188,18 +188,18 @@ export default function HomePage() {
           <h2 className="section-title">Get Involved</h2>
           <div className="grid cta-grid">
             <div className="card cta-card">
-              <h3>Join a Program</h3>
-              <p>Apply for our leadership training, mentorship, or service programs.</p>
-              <a href="/jobs" className="cta">Apply Now</a>
+              <h3>Join a Cohort</h3>
+              <p>Apply for our 12-week leadership training cohort and develop your civic leadership skills.</p>
+              <a href="/cohort-application" className="cta">Apply Now</a>
             </div>
             <div className="card cta-card">
-              <h3>Become a Mentor</h3>
-              <p>Share your expertise and guide the next generation of leaders.</p>
-              <a href="/contact" className="cta">Volunteer</a>
+              <h3>Explore Opportunities</h3>
+              <p>View available positions in media, production, and program management.</p>
+              <a href="/jobs" className="cta">View Positions</a>
             </div>
             <div className="card cta-card">
-              <h3>Support Our Mission</h3>
-              <p>Help us expand our reach and impact in the DC community.</p>
+              <h3>Partner With Us</h3>
+              <p>Collaborate on youth leadership initiatives and community service projects.</p>
               <a href="/contact" className="cta">Contact Us</a>
             </div>
           </div>

@@ -122,6 +122,25 @@ export default function AboutPage() {
               </div>
             </div>
 
+            <h2 style={{ marginTop: 48, marginBottom: 16 }}>SWAD - Students With A Difference</h2>
+            <div className="card" style={{ padding: 32 }}>
+              <p style={{ lineHeight: 1.7, color: "#555", marginBottom: 16 }}>
+                <strong>SWAD (Students With A Difference)</strong> is a mentorship and development program 
+                that equips high school students, particularly those from underserved backgrounds, with the 
+                guidance, skills, and resources needed to thrive academically and personally.
+              </p>
+              <p style={{ lineHeight: 1.7, color: "#555", marginBottom: 16 }}>
+                By pairing students with relatable mentors such as college students and young professionals, 
+                SWAD delivers a mix of in-school workshops and virtual sessions focused on goal setting, time 
+                management, college preparation, scholarship access, and self-discovery.
+              </p>
+              <p style={{ lineHeight: 1.7, color: "#555", margin: 0 }}>
+                In collaboration with schools and community organizations, the program tailors its approach 
+                to local needs, helping students build confidence, pursue higher education, and prepare for 
+                lifelong success.
+              </p>
+            </div>
+
             <h2 style={{ marginTop: 48, marginBottom: 16 }}>Strategic Alignment</h2>
             <p style={{ lineHeight: 1.7, color: "#555", marginBottom: 16 }}>
               CC-YLSC supports public and civic priorities including:
@@ -197,6 +216,7 @@ export default function AboutPage() {
                 Join us in building the next generation of values-driven leaders.
               </p>
               <div style={{ display: "flex", gap: 12, justifyContent: "center", flexWrap: "wrap" }}>
+                <a href="/cohort-application" className="cta">Apply for Cohort</a>
                 <a href="/jobs" className="cta">View Opportunities</a>
                 <a href="/contact" className="cta cta-secondary">Contact Us</a>
               </div>
