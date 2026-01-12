@@ -6,7 +6,7 @@ export default function HomePage() {
           <h1>Building Values-Driven Youth Leaders</h1>
           <p>
             A faith-based, nonpartisan youth leadership and service initiative equipping young 
-            people ages 16-35 in Washington, DC with character, civic responsibility, workforce 
+            people ages 13-35 in Washington, DC with character, civic responsibility, workforce 
             readiness, and a commitment to community and national service.
           </p>
           <div className="hero-ctas">
@@ -33,9 +33,35 @@ export default function HomePage() {
               <div className="stat-label">Cohorts per Year</div>
             </div>
             <div className="stat-card">
-              <div className="stat-number">16-35</div>
+              <div className="stat-number">13-35</div>
               <div className="stat-label">Age Range</div>
             </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Oasis Experience Bootcamp */}
+      <section className="bootcamp-section">
+        <div className="container">
+          <div className="bootcamp-card">
+            <div className="bootcamp-badge">COMING SOON</div>
+            <h2 style={{ margin: "16px 0 12px", fontSize: 40, fontWeight: 800, color: "white" }}>Oasis Experience Bootcamp</h2>
+            <p style={{ margin: "0 0 24px", fontSize: 20, color: "rgba(255, 255, 255, 0.95)", lineHeight: 1.6 }}>
+              An intensive 4-day leadership immersion experience designed to accelerate your personal and professional growth.
+            </p>
+            <div style={{ display: "flex", gap: 20, alignItems: "center", flexWrap: "wrap", marginBottom: 32 }}>
+              <div style={{ display: "flex", alignItems: "center", gap: 8, color: "white", fontSize: 16 }}>
+                <span style={{ fontSize: 24 }}>📅</span>
+                <strong>January 29 - February 1, 2026</strong>
+              </div>
+              <div style={{ display: "flex", alignItems: "center", gap: 8, color: "white", fontSize: 16 }}>
+                <span style={{ fontSize: 24 }}>📍</span>
+                <strong>Washington, DC</strong>
+              </div>
+            </div>
+            <a href="/bootcamp-registration" className="cta" style={{ background: "white", color: "var(--color-primary)" }}>
+              Register Now
+            </a>
           </div>
         </div>
       </section>

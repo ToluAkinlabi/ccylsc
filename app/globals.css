@@ -202,6 +202,36 @@ button.cta {
   margin-top: 16px;
 }
 
+/* Bootcamp Section */
+.bootcamp-section {
+  background: linear-gradient(135deg, var(--color-primary) 0%, #0d5aa8 100%);
+  padding: 64px 0;
+  margin: 32px 0;
+}
+
+.bootcamp-card {
+  position: relative;
+  padding: 48px;
+  border-radius: 16px;
+  background: rgba(255, 255, 255, 0.08);
+  border: 2px solid rgba(255, 255, 255, 0.15);
+  backdrop-filter: blur(10px);
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.bootcamp-badge {
+  display: inline-block;
+  background: rgba(255, 255, 255, 0.25);
+  color: white;
+  padding: 6px 16px;
+  border-radius: 20px;
+  font-size: 12px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
 /* Hero CTAs */
 .hero-ctas {
   display: flex;
@@ -482,6 +512,10 @@ button.cta {
     gap: 24px;
   }
   
+  .bootcamp-card {
+    padding: 36px;
+  }
+  
   .timeline {
     grid-template-columns: repeat(2, 1fr);
   }
@@ -501,6 +535,19 @@ button.cta {
 @media (max-width: 768px) {
   .container {
     padding: 20px;
+  }
+  
+  .bootcamp-section {
+    padding: 48px 0;
+    margin: 24px 0;
+  }
+  
+  .bootcamp-card {
+    padding: 24px;
+  }
+  
+  .bootcamp-card h2 {
+    font-size: 28px !important;
   }
   
   .hero {

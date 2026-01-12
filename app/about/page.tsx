@@ -53,7 +53,7 @@ export default function AboutPage() {
             <ul style={{ lineHeight: 1.8, color: "#555", marginBottom: 16, paddingLeft: 24 }}>
               <li>Students (high school, undergraduate, and graduate)</li>
               <li>Young professionals (early–mid career)</li>
-              <li>Ages 16–35</li>
+              <li>Ages 13–35</li>
               <li>Residents of the Washington, DC metropolitan area</li>
               <li>Participants from diverse faith, cultural, and socioeconomic backgrounds</li>
             </ul>
