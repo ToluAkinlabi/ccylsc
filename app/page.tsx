@@ -35,7 +35,7 @@ export default function HomePage() {
         <div className="container">
           <div className="stats-grid">
             <div className="stat-card">
-              <div className="stat-number">1,000+</div>
+              <div className="stat-number">10,000+</div>
               <div className="stat-label">Youth Target (Annual)</div>
             </div>
             <div className="stat-card">
@@ -61,7 +61,7 @@ export default function HomePage() {
             <div className="bootcamp-badge">COMING SOON</div>
             <h2 style={{ margin: "16px 0 12px", fontSize: 40, fontWeight: 800, color: "white" }}>Oasis Next Bootcamp</h2>
             <p style={{ margin: "0 0 24px", fontSize: 20, color: "rgba(255, 255, 255, 0.95)", lineHeight: 1.6 }}>
-              An intensive 4-day leadership immersion experience designed to accelerate your personal and professional growth.
+              An intensive 3-day leadership immersion experience designed to accelerate your personal and professional growth.
             </p>
             <div style={{ display: "flex", gap: 20, alignItems: "center", flexWrap: "wrap", marginBottom: 32 }}>
               <div style={{ display: "flex", alignItems: "center", gap: 8, color: "white", fontSize: 16 }}>
@@ -70,7 +70,7 @@ export default function HomePage() {
               </div>
               <div style={{ display: "flex", alignItems: "center", gap: 8, color: "white", fontSize: 16 }}>
                 <span style={{ fontSize: 24 }}>📍</span>
-                <strong>Washington, DC</strong>
+                <strong>Baltimore, MD</strong>
               </div>
             </div>
             <a href="/bootcamp-registration" className="cta" style={{ background: "white", color: "var(--color-primary)" }}>
@@ -154,11 +154,12 @@ export default function HomePage() {
         <div className="container">
           <h2 className="section-title">Featured Programs</h2>
           <div className="grid programs-grid">
-            <div className="card program-card">
-              <div className="program-badge">Active</div>
-              <h3>Leadership Training Cohort</h3>
-              <p>12-week intensive program focused on building leadership skills, public speaking, and strategic thinking.</p>
-              <a href="/cohort-application" className="cta-link">Apply now →</a>
+            <div className="card program-card" style={{ borderLeft: "4px solid #DC143C", background: "linear-gradient(135deg, rgba(220, 20, 60, 0.05) 0%, rgba(10, 102, 194, 0.05) 100%)" }}>
+              <div className="program-badge" style={{ background: "#DC143C", animation: "pulse 2s infinite" }}>🔥 LIMITED SPOTS</div>
+              <h3 style={{ color: "#DC143C" }}>Leadership Training Cohort</h3>
+              <p style={{ fontWeight: 500 }}>12-week intensive program focused on building leadership skills, public speaking, and strategic thinking.</p>
+              <p style={{ fontSize: 12, color: "#DC143C", fontWeight: 700, marginTop: 8 }}>⚡ High demand • Applications filling up fast</p>
+              <a href="/cohort-application" className="cta-link" style={{ color: "#DC143C", fontWeight: 700 }}>Apply now →</a>
             </div>
             <div className="card program-card">
               <div className="program-badge">Active</div>

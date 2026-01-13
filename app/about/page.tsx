@@ -203,7 +203,7 @@ export default function AboutPage() {
               Over the next five years, CC-YLSC aims to:
             </p>
             <ul style={{ lineHeight: 1.8, color: "#555", marginBottom: 32, paddingLeft: 24 }}>
-              <li>Serve 1,000+ youth annually</li>
+              <li>Serve 10,000+ youth annually</li>
               <li>Establish Washington, DC as a model hub for faith-based civic youth leadership</li>
               <li>Expand into additional U.S. cities</li>
               <li>Serve as a reliable partner to government and civic institutions advancing youth development</li>

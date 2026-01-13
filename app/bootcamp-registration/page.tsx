@@ -7,13 +7,13 @@ export default function BootcampRegistrationPage() {
         <div style={{ maxWidth: 800, margin: "0 auto" }}>
           <h1 style={{ marginBottom: 8, fontSize: 36, fontWeight: 800 }}>Oasis Experience Bootcamp</h1>
           <p style={{ fontSize: 18, color: "#0A66C2", fontWeight: 600, marginBottom: 24 }}>
-            January 29 - February 1, 2026 • Washington, DC
+            January 29 - February 1, 2026 • Baltimore, MD
           </p>
 
           <div className="card" style={{ marginBottom: 32, padding: 24, background: "#f5f7fb" }}>
             <h3 style={{ marginTop: 0, marginBottom: 12 }}>About the Bootcamp</h3>
             <p style={{ lineHeight: 1.7, color: "#555", margin: 0 }}>
-              The Oasis Experience Bootcamp is an intensive 4-day leadership immersion designed to accelerate 
+              The Oasis Experience Bootcamp is an intensive 3-day leadership immersion designed to accelerate 
               your personal and professional growth. Through interactive workshops, mentorship, networking, and 
               hands-on projects, you'll develop essential leadership competencies and build meaningful connections 
               with fellow emerging leaders.
