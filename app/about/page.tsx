@@ -19,7 +19,7 @@ export default function AboutPage() {
             
             <h2 style={{ marginTop: 48, marginBottom: 16 }}>Overview</h2>
             <p style={{ lineHeight: 1.7, color: "#555", marginBottom: 16 }}>
-              The Capital City Youth Leadership & Service Corps (CC-YLSC) is a faith-based, nonpartisan 
+              The Capital City Youth Leadership & Service Corps (CC-YLSC) is a 
               youth leadership and service initiative designed to support national and local priorities in 
               youth development, workforce readiness, civic engagement, and community resilience.
             </p>
@@ -193,7 +193,7 @@ export default function AboutPage() {
 
             <h2 style={{ marginTop: 48, marginBottom: 16 }}>Governance & Oversight</h2>
             <ul style={{ lineHeight: 1.8, color: "#555", marginBottom: 16, paddingLeft: 24 }}>
-              <li>Program Director (Capital City Church)</li>
+              <li>Program Director (BLW Oasis Capital City)</li>
               <li>Advisory Board comprising educators, civic leaders, workforce professionals, and community stakeholders</li>
               <li>Clear compliance standards ensuring nonpartisan, non-electoral operations</li>
             </ul>
