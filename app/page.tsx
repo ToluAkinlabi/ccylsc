@@ -5,21 +5,23 @@ export default function HomePage() {
   const galleryImages = [
     '/images/bootcamp/mini-bootcamp-1.jpeg',
     '/images/bootcamp/mini-bootcamp-2.jpeg',
+    '/images/bootcamp/mini-bootcamp-3.jpeg',
     '/images/events/un-conference-1.jpeg',
     '/images/events/un-conference-2.jpeg',
     '/images/events/un-conference-3.jpeg',
     '/images/events/un-conference-4.jpeg',
+    '/images/events/un-conference-5.jpeg',
+    '/images/events/un-conference-6.jpeg',
   ];
 
   return (
     <>
       <section className="hero">
         <div className="container">
-          <h1>Building Values-Driven Youth Leaders</h1>
+          <h1>Building Value-Driven Youth Leaders</h1>
           <p>
-            A faith-based, nonpartisan youth leadership and service initiative equipping young 
-            people ages 13-35 in Washington, DC with character, civic responsibility, workforce 
-            readiness, and a commitment to community and national service.
+            A youth leadership and service initiative equipping young people ages 13-35 in Washington, 
+            DC with character, civic responsibility, workforce readiness, and a commitment to community and national service.
           </p>
           <div className="hero-ctas">
             <a className="cta" href="/jobs">Explore Opportunities</a>
@@ -57,7 +59,7 @@ export default function HomePage() {
         <div className="container">
           <div className="bootcamp-card">
             <div className="bootcamp-badge">COMING SOON</div>
-            <h2 style={{ margin: "16px 0 12px", fontSize: 40, fontWeight: 800, color: "white" }}>Oasis Experience Bootcamp</h2>
+            <h2 style={{ margin: "16px 0 12px", fontSize: 40, fontWeight: 800, color: "white" }}>Oasis Next Bootcamp</h2>
             <p style={{ margin: "0 0 24px", fontSize: 20, color: "rgba(255, 255, 255, 0.95)", lineHeight: 1.6 }}>
               An intensive 4-day leadership immersion experience designed to accelerate your personal and professional growth.
             </p>

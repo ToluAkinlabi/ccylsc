@@ -7,9 +7,8 @@ export default function AboutPage() {
         <div className="container" style={{ paddingTop: 48, paddingBottom: 32 }}>
           <h1 style={{ fontSize: 42, fontWeight: 800, marginBottom: 16 }}>About CC-YLSC</h1>
           <p style={{ fontSize: 20, color: "#555", maxWidth: 800, lineHeight: 1.6 }}>
-            A faith-based, nonpartisan youth leadership and service initiative designed to support 
-            national and local priorities in youth development, workforce readiness, civic engagement, 
-            and community resilience.
+            A youth leadership and service initiative equipping young people ages 13-35 in Washington, 
+            DC with character, civic responsibility, workforce readiness, and a commitment to community and national service.
           </p>
         </div>
       </section>

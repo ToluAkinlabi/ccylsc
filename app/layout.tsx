@@ -36,7 +36,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         <footer className="footer">
           <div className="container">
             <div>© {new Date().getFullYear()} CC-YLSC. All rights reserved.</div>
-            <div>Washington, DC • Faith-based, nonpartisan youth leadership & service initiative.</div>
+            <div>Washington, DC • Youth leadership & Service initiative.</div>
           </div>
         </footer>
       </body>
