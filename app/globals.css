@@ -550,6 +550,22 @@ button.cta {
     font-size: 28px !important;
   }
   
+  /* Form responsiveness */
+  form .grid {
+    grid-template-columns: 1fr !important;
+    gap: 16px !important;
+  }
+  
+  form {
+    padding: 24px !important;
+  }
+  
+  input, select, textarea {
+    width: 100%;
+    min-width: 0;
+    box-sizing: border-box;
+  }
+  
   .hero {
     padding: 48px 0;
   }
@@ -688,6 +704,19 @@ button.cta {
   
   .footer {
     text-align: center;
+  }
+  
+  /* Extra small screens - ensure single column forms */
+  form .grid {
+    gap: 12px !important;
+  }
+  
+  form {
+    padding: 16px !important;
+  }
+  
+  input, select, textarea {
+    font-size: 16px; /* Prevents iOS zoom on focus */
   }
 }
 
