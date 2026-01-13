@@ -222,7 +222,7 @@ button.cta {
 
 .bootcamp-badge {
   display: inline-block;
-  background: rgba(255, 255, 255, 0.25);
+  background: #DC143C;
   color: white;
   padding: 6px 16px;
   border-radius: 20px;
@@ -230,6 +230,7 @@ button.cta {
   font-weight: 700;
   text-transform: uppercase;
   letter-spacing: 1px;
+  box-shadow: 0 2px 8px rgba(220, 20, 60, 0.4);
 }
 
 /* Hero CTAs */
