@@ -17,6 +17,127 @@ body {
 a { color: var(--color-primary); text-decoration: none; }
 a:hover { text-decoration: underline; }
 
+:root {
+  --color-bg: #ffffff;
+  --color-text: #333333; /* charcoal */
+  --color-primary: #0A66C2; /* LinkedIn blue */
+  --color-muted: #f5f7fb;
+}
+
+* { box-sizing: border-box; }
+html, body { height: 100%; }
+body {
+  margin: 0;
+  background: var(--color-bg);
+  color: var(--color-text);
+  font-family: var(--font-roboto), system-ui, -apple-system, Segoe UI, Roboto, Ubuntu, Cantarell, Noto Sans, Helvetica Neue, Arial, "Apple Color Emoji", "Segoe UI Emoji";
+}
+
+a { color: var(--color-primary); text-decoration: none; }
+a:hover { text-decoration: underline; }
+
+/* Carousel Styles */
+.carousel-container {
+  width: 100%;
+  margin: 0 auto;
+}
+
+.carousel-title {
+  text-align: center;
+  margin-bottom: 24px;
+  font-size: 28px;
+  font-weight: 800;
+  color: var(--color-text);
+}
+
+.carousel-wrapper {
+  position: relative;
+  width: 100%;
+  aspect-ratio: 16 / 9;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-bottom: 24px;
+}
+
+.carousel-slide {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  flex: 1;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1), 0 10px 20px rgba(0, 0, 0, 0.08);
+}
+
+.carousel-image {
+  object-fit: cover !important;
+  object-position: center;
+}
+
+.carousel-button {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background: rgba(0, 0, 0, 0.4);
+  color: white;
+  border: none;
+  font-size: 24px;
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: background 0.3s ease;
+  z-index: 10;
+  padding: 0;
+}
+
+.carousel-button:hover {
+  background: rgba(0, 0, 0, 0.6);
+}
+
+.carousel-button-prev {
+  left: 12px;
+}
+
+.carousel-button-next {
+  right: 12px;
+}
+
+.carousel-indicators {
+  display: flex;
+  justify-content: center;
+  gap: 8px;
+  margin-bottom: 16px;
+}
+
+.carousel-dot {
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  border: none;
+  background: rgba(0, 0, 0, 0.2);
+  cursor: pointer;
+  transition: all 0.3s ease;
+  padding: 0;
+}
+
+.carousel-dot.active {
+  background: var(--color-primary);
+  width: 32px;
+  border-radius: 6px;
+}
+
+.carousel-counter {
+  text-align: center;
+  font-size: 14px;
+  color: #666;
+  font-weight: 500;
+}
+
 .container { max-width: 1120px; margin: 0 auto; padding: 24px; }
 .header {
   border-bottom: 1px solid #e6e9ef;
@@ -516,6 +637,24 @@ button.cta {
   .bootcamp-card {
     padding: 36px;
   }
+
+  .carousel-wrapper {
+    aspect-ratio: 4 / 3;
+  }
+
+  .carousel-button {
+    width: 40px;
+    height: 40px;
+    font-size: 20px;
+  }
+
+  .carousel-button-prev {
+    left: 8px;
+  }
+
+  .carousel-button-next {
+    right: 8px;
+  }
   
   .timeline {
     grid-template-columns: repeat(2, 1fr);
@@ -570,7 +709,19 @@ button.cta {
   .hero {
     padding: 48px 0;
   }
-  
+
+  .carousel-wrapper {
+    aspect-ratio: 3 / 2;
+  }
+
+  .carousel-button {
+    width: 36px;
+    height: 36px;
+    font-size: 18px;
+  }
+}
+
+@media (max-width: 720px) {
   .hero h1 {
     font-size: 32px;
   }
@@ -718,6 +869,29 @@ button.cta {
   
   input, select, textarea {
     font-size: 16px; /* Prevents iOS zoom on focus */
+  }
+
+  .carousel-wrapper {
+    aspect-ratio: 3 / 2;
+  }
+
+  .carousel-button {
+    width: 36px;
+    height: 36px;
+    font-size: 18px;
+  }
+
+  .carousel-indicators {
+    gap: 6px;
+  }
+
+  .carousel-dot {
+    width: 10px;
+    height: 10px;
+  }
+
+  .carousel-dot.active {
+    width: 28px;
   }
 }
 

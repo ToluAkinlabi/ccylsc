@@ -1,4 +1,16 @@
+import PhotoCarousel from './components/PhotoCarousel';
+
 export default function HomePage() {
+  // Gallery images - replace with your actual image paths once uploaded
+  const galleryImages = [
+    '/images/bootcamp/mini-bootcamp-1.jpeg',
+    '/images/bootcamp/mini-bootcamp-2.jpeg',
+    '/images/events/un-conference-1.jpeg',
+    '/images/events/un-conference-2.jpeg',
+    '/images/events/un-conference-3.jpeg',
+    '/images/events/un-conference-4.jpeg',
+  ];
+
   return (
     <>
       <section className="hero">
@@ -63,6 +75,17 @@ export default function HomePage() {
               Register Now
             </a>
           </div>
+        </div>
+      </section>
+
+      {/* Photo Gallery - Past Events & Bootcamps */}
+      <section className="gallery-section">
+        <div className="container">
+          <h2 className="section-title">Our Journey in Action</h2>
+          <p style={{ textAlign: 'center', fontSize: 18, color: '#666', marginBottom: 48 }}>
+            See moments from our mini bootcamps and UN conference participation
+          </p>
+          <PhotoCarousel images={galleryImages.filter(img => img)} autoPlay={true} autoPlayInterval={5000} />
         </div>
       </section>
 
