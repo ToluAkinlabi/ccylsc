@@ -9,6 +9,7 @@ type Job = {
   qualifications?: string[];
   responsibilities?: string[];
   link?: string;
+  applicationLink?: string;
 };
 
 async function loadJobs(): Promise<Job[]> {
@@ -39,7 +40,11 @@ export default async function JobsPage() {
               <div key={job.title} className="card">
                 <h3>{job.title}</h3>
                 {job.description && <p style={{ marginBottom: 16 }}>{job.description}</p>}
-                <a href={`/jobs/${slugify(job.title)}`} className="cta">View Details & Apply</a>
+                {job.applicationLink ? (
+                  <a href={job.applicationLink} target="_blank" rel="noopener noreferrer" className="cta">Apply Now</a>
+                ) : (
+                  <a href={`/jobs/${slugify(job.title)}`} className="cta">View Details & Apply</a>
+                )}
               </div>
             ))}
           </div>
